@@ -1,11 +1,23 @@
-# Awesome-Temperature-Scaling
-## Temperature Scaling: Evolution, Variants, Types, & Applications
+# 🌡️ Awesome Temperature Scaling
 
-Temperature Scaling is a post-processing and inference-time technique used to recalibrate the confidence scores of machine learning models or control the randomness of generative outputs. Mathematically, it introduces a single scalar parameter, Temperature ($T > 0$), to divide the unnormalized log-odds (logits) right before they enter a Softmax or Sigmoid activation layer. Crucially, Temperature Scaling alters the smoothness of the final output probability distribution *without* changing the relative ranking of the options or modifying the underlying parameters of the trained network.
+<div align="center">
+
+![Awesome Temperature Scaling Banner](assets/banner.svg)
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Temperature-Scaling/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Temperature-Scaling?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Temperature-Scaling/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Temperature-Scaling?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+</div>
 
 ---
 
-## 1. The Chronological Evolution
+## 📖 Introduction & SEO Overview
+**Temperature Scaling** is a post-processing and inference-time technique used to recalibrate the confidence scores of machine learning models or control the randomness of generative outputs. Mathematically, it introduces a single scalar parameter, Temperature ($T > 0$), to divide the unnormalized log-odds (logits) right before they enter a Softmax or Sigmoid activation layer. Crucially, Temperature Scaling alters the smoothness of the final output probability distribution *without* changing the relative ranking of the options or modifying the underlying parameters of the trained network.
+
+This repository compiles a comprehensive curated list of the evolution, variants, types, engineering challenges, and real-world safety-critical applications of temperature scaling.
+
+---
+
+## 📈 1. The Chronological Evolution
 
 The implementation of temperature-based logit manipulation has transitioned from early statistical physics modeling to strict model calibration layers and multi-scale generative decoding filters.
 
@@ -25,7 +37,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Algorithmic Variants
+## 🛠️ 2. Core Functional & Algorithmic Variants
 
 Depending on whether Temperature Scaling is applied uniformly or mapped across separate parameter dimensions, the algorithm operates via distinct structural variants.
 
@@ -37,7 +49,7 @@ Depending on whether Temperature Scaling is applied uniformly or mapped across s
 
 ---
 
-## 3. Generative Inference Decoding Types
+## 🔄 3. Generative Inference Decoding Types
 
 At inference time in autoregressive generation models, the selection of the temperature parameter value dictates the balance between structural determinism and creative token diversity.
 
@@ -49,7 +61,7 @@ At inference time in autoregressive generation models, the selection of the temp
 
 ---
 
-## 4. Modern Dynamic & Context-Aware Implementations
+## ⚡ 4. Modern Dynamic & Context-Aware Implementations
 
 Static temperature configurations often fail when a model transitions between straightforward prompt matching and abstract, multi-step logical reasoning. Modern platforms utilize adaptive setups.
 
@@ -61,7 +73,7 @@ Static temperature configurations often fail when a model transitions between st
 
 ---
 
-## 5. Production Engineering Challenges & Mitigations
+## ⚠️ 5. Production Engineering Challenges & Mitigations
 
 | Challenge / Mitigation | Details | Year | First Used Paper |
 | :--- | :--- | :---: | :--- |
@@ -70,7 +82,7 @@ Static temperature configurations often fail when a model transitions between st
 
 ---
 
-## 6. Real-World Deep Learning Applications
+## 🚀 6. Real-World Deep Learning Applications
 
 | Application | Details | Year | First Used Paper |
 | :--- | :--- | :---: | :--- |
