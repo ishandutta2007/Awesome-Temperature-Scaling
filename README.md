@@ -89,3 +89,15 @@ Static temperature configurations often fail when a model transitions between st
 | [**Autoregressive LLM Inference Engines (vLLM / Hugging Face)**](details/autoregressive_inference_engines.md) | **Application:** Acts as the primary user-facing configuration parameter in chat interfaces. It allows enterprise applications to tune a single model model dynamically—using low temperatures for billing customer support bots and high temperatures for creative marketing copywriters. | 2023 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) |
 | [**Safety Critical Clinical Medical Risk Predictors**](details/clinical_medical_risk_predictors.md) | **Application:** Deep learning networks predicting patient mortality or ICU survival curves utilize Temperature Scaling to ensure that a predicted "80% chance of a cardiovascular event" maps exactly to an empirical 80% outcome rate, preventing dangerous diagnostic misclassifications. | 2024 | [Calibrating Where It Matters: Constrained Temperature Scaling](https://arxiv.org/abs/2406.11456) |
 | [**Autonomous Driving Perception Object Classifiers**](details/autonomous_driving_classifiers.md) | **Application:** Normalizes confidence boundaries for computer vision networks tracking roadside obstacles. Precise calibration ensures that the vehicle's internal routing engine can reliably evaluate safety thresholds when dealing with blurry, low-confidence objects under severe weather glare. | 2020 | [Multivariate Confidence Calibration for Object Detection](https://openaccess.thecvf.com/content_CVPRW_2020/html/w22/Kuppers_Multivariate_Confidence_Calibration_for_Object_Detection_CVPRW_2020_paper.html) |
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Temperature-Scaling&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Temperature-Scaling&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Temperature-Scaling&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Temperature-Scaling&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
